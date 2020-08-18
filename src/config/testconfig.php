@@ -1,4 +1,5 @@
 <?php
-$middleware = [
-    \App\Http\Middleware\CheckForMaintenanceMode::class,
+return [
+    'middleware' => \App\Http\Middleware\CheckForMaintenanceMode::class,
 ];
+
