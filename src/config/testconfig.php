@@ -1,2 +1,4 @@
 <?php
-return ['1'=>'234'];
+$middleware = [
+    \App\Http\Middleware\CheckForMaintenanceMode::class,
+];
