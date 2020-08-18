@@ -9,5 +9,11 @@
             "testpackage\\package1\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "repositories": [
+    {
+        "type": "path",
+        "url": "https://github.com/oolleegg77794/testpackage.git"
+    }
+],
 }
